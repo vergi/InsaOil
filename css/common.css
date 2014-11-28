@@ -1,0 +1,44 @@
+body {
+	background: #eee url('../img/bg.jpg') fixed top no-repeat;
+	background-size: 100% 100%;
+	overflow-y: scroll;
+}
+
+#page { 
+	width: 85%;
+	margin: 2em auto;
+	padding: 1em;
+	background: rgba(190, 240, 210, 0.3);
+	box-shadow: 0 0 0.41em #BEF0D2;
+	border-radius: 6px;
+}
+
+#logo { display: inline-block; }
+#logo img { width: 13.875em; }
+
+#main {
+	background: rgba(255, 255, 255, 0.6);
+	padding: 1em;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+#main .icons { font-size: 1.2em; }
+#main p { text-align: justify; padding-bottom: 0.5em; }
+
+.map {
+	border: 0;
+	width: 54em;
+	height: 30.375em;
+}
+
+.imager { float: right; }
+.imagel { float: left; }
+
+.imager img { width: 20em; margin-left: 1em; }
+.imagel img { width: 20em; margin-right: 1em; }
+
+.header { padding-bottom: 1em; }
+.footer { padding: 1em 1em 0 1em; text-align: center; }
+
+table, thead, tbody, tfoot, table tr, table td, table th { border: 1px solid #000 !important; border-collapse: collapse !important; }

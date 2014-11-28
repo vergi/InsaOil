@@ -1,0 +1,47 @@
+.slicknav_menu {	 display: none; }
+
+@media only screen 
+and (max-width : 1099px) {
+	.map {
+	width: 40.5em;
+	height: 22.782em;
+	}
+}
+
+@media only screen 
+and (max-width : 849px) {
+	#page { width: auto; margin: 0; }
+	.map {
+	width: 27em;
+	height: 15.186em;
+	}
+
+}
+
+@media only screen 
+and (max-width : 569px) {
+	#menu { display: none; }
+	.slicknav_menu { display: block; }
+	.map {
+	width: 16em;
+	height: 9em;
+	}
+}
+
+@media only screen 
+and (max-width : 359px) {
+	body { font-size: 0.6em; }
+	.map {
+	width: 25em;
+	height: 14.1em;
+	}
+}
+
+@media only screen 
+and (max-width : 329px) {
+	.map {
+	width: 25em;
+	height: 14.1em;
+	}
+}
+

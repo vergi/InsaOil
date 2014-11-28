@@ -1,0 +1,56 @@
+nav { display: inline-block; font-family: Helvetica;	font-weight: bold; }
+nav ul { margin: 0; padding: 0; }
+nav ul:after { display: block; content: ''; height: 1px; clear: both; }
+nav ul li { display: block; list-style: none outside; position: relative; }
+nav ul li a:link { color: darkblue; }
+nav ul li a:visited { color: darkblue; }
+
+nav > ul {  }
+nav > ul ul { display: none; position: absolute; left:0; top: 100%; }
+nav li:hover > ul { display: block; }
+
+nav > ul > li { float: left; box-shadow: 0 0 0.41em #AACCEE; border-radius: 6px; margin-left: 10px; }
+nav > ul > li > a { 
+	border-radius: 6px;
+	background-color: #E5F3FB;
+	text-align: left;
+	background: -webkit-linear-gradient(#E5F3FB, #AACCEE); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E5F3FB, #AACCEE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E5F3FB, #AACCEE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E5F3FB, #AACCEE); /* Standard syntax (must be last) */
+}
+
+nav > ul > li ul li a { box-shadow: 0 0 0.41em #AACCEE; }
+
+nav > ul > li ul { padding: 5px 0 0 0; width: 10em; }
+nav > ul > li li:first-child a { border-top-left-radius: 6px; border-top-right-radius: 6px; }
+nav > ul > li li:last-child a { border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
+
+nav > ul > li > ul > li ul { left: 100%; top: 0; padding: 0 0 0 5px; }
+
+nav ul li a { display: block; background-color: #E5F3FB; padding: 5px 10px; text-decoration: none; }
+nav ul li:hover > a { 
+	background: #6EC4F4;
+	color: gold; 
+	box-shadow: 0 0 0.41em #3D96EF;
+	background: -webkit-linear-gradient(#3D96EF, #6EC4F4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3D96EF, #6EC4F4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3D96EF, #6EC4F4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3D96EF, #6EC4F4); /* Standard syntax (must be last) */
+}
+
+nav  .icon { font-size: 1.3em; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

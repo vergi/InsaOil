@@ -1,0 +1,19 @@
+﻿.back-to-top {
+	position: fixed;
+	bottom: 1em;
+	right: 0.5em;
+	background-color: #3D96EF;
+	display: none;
+	box-shadow: 0 0 0.8em #3D96EF;
+	border-radius: 0.6em;
+	padding: 0.5em 1em;
+	font-weight: bold;
+}
+
+.back-to-top:hover {	
+	background-color: #AACCEE;
+	box-shadow: 0 0 0.8em #AACCEE;
+}
+
+a.back-to-top { color: gold; }
+a:hover.back-to-top { color: gold; }
