@@ -10,6 +10,7 @@ and (max-width : 1099px) {
 
 @media only screen 
 and (max-width : 849px) {
+	table { zoom: 90%; }
 	#page { width: auto; margin: 0; }
 	.map {
 	width: 27em;
@@ -20,6 +21,7 @@ and (max-width : 849px) {
 
 @media only screen 
 and (max-width : 569px) {
+	table { zoom: 60%; }
 	#menu { display: none; }
 	.slicknav_menu { display: block; }
 	.map {
@@ -31,6 +33,7 @@ and (max-width : 569px) {
 @media only screen 
 and (max-width : 359px) {
 	body { font-size: 0.6em; }
+	table { zoom: 40%; }
 	.map {
 	width: 25em;
 	height: 14.1em;
