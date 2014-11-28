@@ -31,11 +31,6 @@ and (max-width : 569px) {
 }
 
 @media only screen 
-and (max-width : 669px) {
-	table { zoom: 50%; }
-}
-
-@media only screen 
 and (max-width : 369px) {
 	body { font-size: 0.6em; }
 	table { zoom: 40%; }
